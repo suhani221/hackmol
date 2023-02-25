@@ -1,0 +1,2843 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head id="includes">
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://plaksha.edu.in/styles/bootstrap.min.css">
+        <link rel="stylesheet" href="https://plaksha.edu.in/styles/styles.css?r=20">
+        <link rel="shortcut icon" href="https://plaksha.edu.in/favicon.ico" type="image/x-icon">
+        <title> Plaksha University | Reimagining Technology Education and Research | Technology Leaders Program & B.Tech degree</title>
+        <meta name="title" content="Plaksha University | Reimagining Technology Education and Research | Technology Leaders Program & B.Tech degree" />
+        <meta name="description" content="Plaksha University is a technology and research university in India offering undergraduate and postgraduate degrees and research opportunities in cutting edge subjects like robotics, computing, autonomy, data science and artificial intelligence." />
+        <meta name="keywords" content="Post Graduate Program, Technology Leaders Program, Big Data and Business Analytics Course, Artificial Intelligence Course in India, Btech Degree, Btech Programs, Btech computer science artificial intelligence, UG Programs, PG Programs, best technical university in india">
+        <meta property="og:title" content="Plaksha University | Reimagining Technology Education and Research | Technology Leaders Program & B.Tech degree" />
+        <meta property="og:description" content="Plaksha University is a technology and research university in India offering undergraduate and postgraduate degrees and research opportunities in cutting edge subjects like robotics, computing, autonomy, data science and artificial intelligence." />
+        <meta property="og:url" content="https://plaksha.edu.in" />
+        <meta property="og:site_name" content="Plaksha" />
+        <meta property="og:image" content="asset('/landingPage_asset/images/theme/stacked_logo.jpg')" />
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PQ4SR2F');</script>
+        <!-- End Google Tag Manager -->
+        <meta name="facebook-domain-verification" content="ldrm1yip00recepihsfjfi2wiuj32f" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style>
+.trigger_popup {
+      z-index: 1000;
+      position: fixed;
+      top: 50%;
+      right: 0;
+      background: #ffffff;
+      transform: rotate(-90deg) translate(50%, 50%);
+      transform-origin: 70% 50%;
+      padding: 1.33333rem 2.66667rem;
+      border-radius: 5px 5px 0 0;
+      border: solid 1px #017a7b;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: -0.32px;
+      text-align: center;
+      color: #017a7b;
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+  }
+  .trigger_popup:hover {
+      background-color: #fff;
+      border-color: #017a7b;
+  }
+  /* The Modal (background) */
+  .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999999;
+      padding-top: 35px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      font-family: 'Open Sans', sans-serif;
+  }
+  /* Modal Content */
+  .modal-content {
+      background-color: transparent;
+      margin: auto;
+      padding: 0;
+      border: 0px solid #888;
+      max-width: 420px;
+      position: relative;
+      box-shadow: none;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 340px;
+      font-family: 'Open Sans', sans-serif;
+  }
+  /* The Close Button */
+  .close {
+      color: #fff;
+      float: right;
+      font-size: 26px;
+      font-weight: bold;
+      position: absolute;
+      right: 0px;
+      z-index: 9999;
+      top: 0px;
+      opacity: 0.8;
+      box-shadow: 0px 0px 0px 0px rgba(80, 80, 80, 0.23);
+      text-shadow: 0px 0px 0px rgba(80, 80, 80, 0.23);
+      background-color: #007878;
+      padding: 0 5px;
+  }
+  .close:hover,
+  .close:focus {
+      color: #797878;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  span.close:hover {
+      color: #fff;
+  }
+  .head_text {
+      font-family: 'Open Sans';
+      background-color: #fff;
+      color: #007079;
+      text-align: center;
+      padding: 0px;
+      font-size: 19px;
+      padding-bottom: 0px;
+      border-top-left-radius: 10px;
+      padding-top: 10px;
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+  }
+  span#connect {
+      color: #0f62da;
+      cursor: pointer;
+  }
+  span#connect:hover {
+      text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+      .trigger_popup {
+          /* transform: rotate(0); */
+          /* bottom: 0; */
+          /* top: 90%; */
+          /* right: unset; */
+          margin: 0;
+          /* left: 15%; */
+          font-size: 14px;
+          padding: 6px 10px;
+      }
+      .popupCloseButton {
+          top: -10px;
+          right: -2px;
+      }
+  }
+</style>
+<!-- Ticker Tape CSS for RTE height fix issue 15th june 2021 -->
+<style>
+        .homepage-main-container .ticker-wrap {
+            height:51px !important;
+        }
+        .ticker-wrap > p {
+            margin-bottom:0 !important;
+        }
+       </style>
+<!-- Ticker tape CSS ends -->
+        </head>
+    <body>
+        <div class="homepage-main-container">
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ4SR2F"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+     <script type="text/javascript"> var npf_d='https://btech-admissions.plaksha.edu.in,https://techleaders.plaksha.edu.in,https://yts.plaksha.edu.in'; var npf_c='5002,4084,630'; var npf_m='1'; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://track.nopaperforms.com/js/track.js"; document.body.appendChild(s); </script>
+                                <div class="homepage-main-container">
+                <section class="ticker-wrap">
+                        <div class="ticker">
+                            <div class="ticker__item">
+                                <p><a href="https://btech-admissions.plaksha.edu.in/lp/virtualchat.html?utm_source=VirtualChat&amp;utm_medium=UG&amp;utm_campaign=Admissions" target="_blank" rel="noopener">Sign up for Virtual Chats <u>here</u></a><span style="color: #ffffff;">.&nbsp;|&nbsp;</span><a href="#" target="_blank" rel="noopener">View Academic Calendar 2022-23&nbsp;<u>here</u></a><span style="color: #ffffff;">.&nbsp;|&nbsp;</span>Admissions for TLP Class of 2024 are now open. <a href="https://techleaders.plaksha.edu.in/" target="_blank" rel="noopener"><u>Click here to apply</u></a>&nbsp; | Admissions for summer program - YTS - are open. <a href="https://yts.plaksha.edu.in/" target="_blank" rel="noopener"><u>Click here to apply</u></a></p>
+                                <!-- &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; -->
+                            </div>
+                        </div>
+                </section>
+              </div>
+            <style type="text/css">
+            .apply-btn::after {
+                position: absolute;
+                content: '';
+                top: 50%;
+                transform: translateY(-50%);
+                right: 14px;
+                background-image: url(https://plaksha.edu.in/images/chevron-down.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 14px;
+                height: 8px;
+            }
+        </style>
+    <style>
+@media  only screen and (max-width: 480px) {
+  .new-title
+	{
+    z-index: 0 !important;}
+}
+
+    .header-new-show {
+    position: fixed !important;
+}
+.header-new-show .header-top
+{
+    background-color: #272727cc;
+}
+
+.header-new-show .open .hamburger-menu
+{
+     height: 750px;
+    overflow: scroll;
+}
+
+.footer-part
+{
+    position: relative;
+    border: 10px;
+    height: 51px;
+    bottom: 0;
+    background: #ffffff;
+}
+@media  only screen and (max-width:480px)
+{
+    .change-bg-color
+    {
+        background-color:#007878!important;
+    }
+}
+</style>
+<div class="header-new white-bg-header" id="mobile-header">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-12">
+                <div class="middle-navbar d-xl-none">
+                    <ul style="
+    margin-left: -8px;
+    letter-spacing: -1px;
+">
+                                                    <li><a href="https://plaksha.edu.in/work-at-plaksha">Work at Plaksha</a></li>
+                                                    <li><a href="https://plaksha.edu.in/whats-happening-at-plaksha">Happenings</a></li>
+                                                    <li><a href="https://plakshauniversity1.sharepoint.com/sites/my-Plaksha/">My-Plaksha</a></li>
+                                                    <li><a href="https://plaksha.edu.in/reach-us">Reach Us</a></li>
+                                            </ul>
+                </div>
+                <div class="header-top">
+                    <div class="logo-area">
+                        <a href="https://plaksha.edu.in"><img class="logo-white" src="https://plaksha.edu.in/images/logo-new.png"
+                                alt=""><img class="logo-green" src="https://plaksha.edu.in/assets/logo-green.png?v=2"
+                                alt=""></a>
+                    </div>
+                    <div class="middle-navbar d-none d-xl-block">
+                        <ul>
+                                                            <li><a target="_blank" href="https://plaksha.edu.in/work-at-plaksha">Work at Plaksha</a>
+                                </li>
+                                                            <li><a target="_blank" href="https://plaksha.edu.in/whats-happening-at-plaksha">Happenings</a>
+                                </li>
+                                                            <li><a target="_blank" href="https://plakshauniversity1.sharepoint.com/sites/my-Plaksha/">My-Plaksha</a>
+                                </li>
+                                                            <li><a  href="https://plaksha.edu.in/reach-us">Reach Us</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                    <div class="right-apply-btn">
+                                                <!--<button type="button" class="btn apply-btn" id="apply-btn"><a href=""  target="_blank" ></a></button>-->
+                                                    <button type="button" class="cta-button btn apply-btn"
+                                id="apply-btn">Apply Now</button>
+                                                                                                <div class="dropdown">
+                                        <ul>
+                                                                                            <li><a href="https://btech-admissions.plaksha.edu.in/"                                                         target="_blank"
+                                                        >B. Tech Program</a></li>
+                                                                                            <li><a href="https://apply.interfolio.com/99601"                                                         target="_blank"
+                                                        >Ph.D Program</a></li>
+                                                                                            <li><a href="https://apply.interfolio.com/39648/positions"                                                         target="_blank"
+                                                        >Faculty Openings</a></li>
+                                                                                            <li><a href="https://techleaders.plaksha.edu.in/"                                                         target="_blank"
+                                                        >Technology Leaders Program</a></li>
+                                                                                            <li><a href="https://yts.plaksha.edu.in/"                                                         target="_blank"
+                                                        >Young Technology Scholars</a></li>
+                                                                                    </ul>
+                                    </div>
+                                                                                                            <button  type="button" onclick="showHideClass()" class="menu-btn btn d-xl-none ml-2"><img
+                                class="humber-menu" src="https://plaksha.edu.in/images/menu-white.png"
+                                alt=""><img class="hamburger-close"
+                                src="https://plaksha.edu.in/assets/cross-black.svg" style="
+
+
+    width: 50%;
+"
+                                alt=""></button>
+                                <script>
+                                    function showHideClass() {
+                                       var element = document.getElementById("mobile-header");
+                                       element.classList.toggle("header-new-show");
+                                    }
+                                    </script>
+                                            </div>
+                </div>
+
+                <div class="d-none d-xl-block">
+                    <div class="header-bottom">
+                        <ul>
+                            
+
+                                                            <li class="item-nav  has-dropdown "><a
+                                        class="item-link"
+                                        href=" # ">About Us
+
+                                    </a>
+                                                                            <div class="dropdown">
+                                            
+                                            <ul>
+                                                                                                                                                            <li class="has-submenu"><a href="https://plaksha.edu.in/about-us"
+                                                                >Vision, Mission &amp; Values</a>
+                                                            <div class="submenu">
+                                                                <ul>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/about-us"
+                                                                                 target="_blank"
+                                                                                >Our Story</a>
+                                                                        </li>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/plaksha-values"
+                                                                                 target="_blank"
+                                                                                >Plaksha Values</a>
+                                                                        </li>
+                                                                                                                                    </ul>
+                                                            </div>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/team/founding-group" >Founders &amp; Donors
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/about-us#academic-advisory-board" >Academic Board
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/partnerships" >Partnerships
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/regulatory" >Regulatory &amp; Statutory Bodies
+                                                            </a>
+                                                        </li>
+                                                                                                                                                </ul>
+                                        </div>
+                                                                    </li>
+                                                            <li class="item-nav  has-dropdown "><a
+                                        class="item-link"
+                                        href=" # ">Programs
+
+                                    </a>
+                                                                            <div class="dropdown">
+                                            
+                                            <ul>
+                                                                                                                                                            <li class="has-submenu"><a href="https://plaksha.edu.in/UG"
+                                                                >B.Tech Program</a>
+                                                            <div class="submenu">
+                                                                <ul>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/ug/btech-degree/computer-science-and-artificial-intelligence"
+                                                                                 target="_blank"
+                                                                                >B.Tech in Computer Science &amp; Artificial Intelligence</a>
+                                                                        </li>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/ug/btech-degree/robotics-cyber-physical-systems"
+                                                                                 target="_blank"
+                                                                                >B.Tech in Robotics &amp; Cyber-Physical Systems</a>
+                                                                        </li>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/ug/btech-degree/biological-systems-engineering"
+                                                                                 target="_blank"
+                                                                                >B.Tech in Biological Systems Engineering</a>
+                                                                        </li>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/ug/btech-degree/data-science-business-economics"
+                                                                                 target="_blank"
+                                                                                >B.Tech in Data Science, Economics &amp; Business</a>
+                                                                        </li>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/Grand-Challenge-Scholars-Program"
+                                                                                >Grand Challenge Scholars Program</a>
+                                                                        </li>
+                                                                                                                                    </ul>
+                                                            </div>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/techleaders/"                                                                 target="_blank"
+                                                                >Technology Leaders Program
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/hs/young-technology-scholars"                                                                 target="_blank"
+                                                                >Young Technology Scholars
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/phd"                                                                 target="_blank"
+                                                                >Ph.D Program
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1659337227academic%20calendar%202022-231659337227.pdf"                                                                 target="_blank"
+                                                                >Academic Calendar
+                                                            </a>
+                                                        </li>
+                                                                                                                                                </ul>
+                                        </div>
+                                                                    </li>
+                                                            <li class="item-nav  has-dropdown "><a
+                                        class="item-link"
+                                        href=" # ">Admissions
+
+                                    </a>
+                                                                            <div class="dropdown">
+                                            
+                                            <ul>
+                                                                                                                                                            <li>
+                                                            <a href="https://plaksha.edu.in/admissions" >B.Tech Programs
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/techleaders/admissions" >Technology Leaders Program
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/hs/young-technology-scholars" >Young Technology Scholars
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/phd" >Ph.D Program
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li class="has-submenu"><a href="https://plaksha.edu.in/scholarship"
+                                                                >Scholarships</a>
+                                                            <div class="submenu">
+                                                                <ul>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/bharti-scholarship"
+                                                                                 target="_blank"
+                                                                                >Bharti Scholarship</a>
+                                                                        </li>
+                                                                                                                                    </ul>
+                                                            </div>
+                                                        </li>
+                                                                                                                                                                                                                <li class="has-submenu"><a href="https://plaksha.edu.in/spdutt-award"
+                                                                 target="_blank"
+                                                                >Awards</a>
+                                                            <div class="submenu">
+                                                                <ul>
+                                                                                                                                            <li><a href="https://plaksha.edu.in/spdutt-award"
+                                                                                 target="_blank"
+                                                                                >SP Dutt Award</a>
+                                                                        </li>
+                                                                                                                                    </ul>
+                                                            </div>
+                                                        </li>
+                                                                                                                                                </ul>
+                                        </div>
+                                                                    </li>
+                                                            <li class="item-nav  has-dropdown "><a
+                                        class="item-link"
+                                        href=" # ">Faculty
+
+                                    </a>
+                                                                            <div class="dropdown">
+                                            
+                                            <ul>
+                                                                                                                                                            <li>
+                                                            <a href="https://plaksha.edu.in/faculty/full-time-academia" >Full Time &amp; Adjunct Faculty
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/faculty/visiting-faculty-academia" >Visiting Faculty
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/faculty-open-positions" >Join as Faculty
+                                                            </a>
+                                                        </li>
+                                                                                                                                                </ul>
+                                        </div>
+                                                                    </li>
+                                                            <li class="item-nav "><a
+                                        class="item-link"
+                                        href=" https://plaksha.edu.in/research ">Research
+
+                                    </a>
+                                                                    </li>
+                                                            <li class="item-nav "><a
+                                        class="item-link"
+                                        href=" https://plaksha.edu.in/#student-life ">Student Life
+
+                                    </a>
+                                                                    </li>
+                                                            <li class="item-nav  has-dropdown "><a
+                                        class="item-link"
+                                        href="  ">Career Development
+
+                                    </a>
+                                                                            <div class="dropdown">
+                                            
+                                            <ul>
+                                                                                                                                                            <li>
+                                                            <a href="https://plaksha.edu.in/placements" >Placements
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                <li>
+                                                            <a href="https://plaksha.edu.in/pesp" >Plaksha Entrepreneurship Support Program
+                                                            </a>
+                                                        </li>
+                                                                                                                                                </ul>
+                                        </div>
+                                                                    </li>
+                                                    </ul>
+                        
+                    </div>
+                </div>
+
+                <div class="trigger-btn-dropdown">
+                    <div class="dropdown-menu border-0 m-0" aria-labelledby="hamburgerMenuDesktop">
+                        <div class="dropdown-content bg-white hamburger-menu-desktop">
+                            <div class="row no-gutters hamburger-menu">
+                                <div class="col-md-8 links-container">
+                                    <div class="links-wrapper" id="mobileMegaMenu">
+                                        <div class="card border-0">
+                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading1">
+                                                                                                            <button
+                                                            class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#hamburger1"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            About Us
+                                                                                                                    </button>
+                                                                                                    </div>
+                                                                                                    <div id="hamburger1" class="collapse"
+                                                        aria-labelledby="hamburgerHeading1"
+                                                        data-parent="#mobileMegaMenu">
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading10">
+                                                                                                                                                                                                                                        <button
+                                                                                    class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                                                    type="button"
+                                                                                    data-toggle="collapse"
+                                                                                    data-target="#subhamburger10"
+                                                                                    aria-expanded="true"
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls="collapseOne">
+                                                                                    Vision, Mission &amp; Values
+                                                                                </button>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div id="subhamburger10"
+                                                                                class="collapse"
+                                                                                aria-labelledby="subhamburgerHeading10">
+                                                                                <div class="card-body py-0">
+                                                                                    <ul
+                                                                                        class="link-list p-5 m-0 list-unstyled">
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/about-us"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >Our Story</a>
+                                                                                            </li>
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/plaksha-values"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >Plaksha Values</a>
+                                                                                            </li>
+                                                                                                                                                                            </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading11">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/team/founding-group">
+                                                                                    Founders &amp; Donors
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading12">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/about-us#academic-advisory-board">
+                                                                                    Academic Board
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading66">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/partnerships">
+                                                                                    Partnerships
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading74">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/regulatory">
+                                                                                    Regulatory &amp; Statutory Bodies
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading3">
+                                                                                                            <button
+                                                            class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#hamburger3"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            Programs
+                                                                                                                    </button>
+                                                                                                    </div>
+                                                                                                    <div id="hamburger3" class="collapse"
+                                                        aria-labelledby="hamburgerHeading3"
+                                                        data-parent="#mobileMegaMenu">
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading13">
+                                                                                                                                                                                                                                        <button
+                                                                                    class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                                                    type="button"
+                                                                                    data-toggle="collapse"
+                                                                                    data-target="#subhamburger13"
+                                                                                    aria-expanded="true"
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls="collapseOne">
+                                                                                    B.Tech Program
+                                                                                </button>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div id="subhamburger13"
+                                                                                class="collapse"
+                                                                                aria-labelledby="subhamburgerHeading13">
+                                                                                <div class="card-body py-0">
+                                                                                    <ul
+                                                                                        class="link-list p-5 m-0 list-unstyled">
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/ug/btech-degree/computer-science-and-artificial-intelligence"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >B.Tech in Computer Science &amp; Artificial Intelligence</a>
+                                                                                            </li>
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/ug/btech-degree/robotics-cyber-physical-systems"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >B.Tech in Robotics &amp; Cyber-Physical Systems</a>
+                                                                                            </li>
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/ug/btech-degree/biological-systems-engineering"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >B.Tech in Biological Systems Engineering</a>
+                                                                                            </li>
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/ug/btech-degree/data-science-business-economics"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >B.Tech in Data Science, Economics &amp; Business</a>
+                                                                                            </li>
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/Grand-Challenge-Scholars-Program"
+                                                                                                    >Grand Challenge Scholars Program</a>
+                                                                                            </li>
+                                                                                                                                                                            </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading14">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/techleaders/">
+                                                                                    Technology Leaders Program
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading15">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/hs/young-technology-scholars">
+                                                                                    Young Technology Scholars
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading45">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/phd">
+                                                                                    Ph.D Program
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading64">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1659337227academic%20calendar%202022-231659337227.pdf">
+                                                                                    Academic Calendar
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading4">
+                                                                                                            <button
+                                                            class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#hamburger4"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            Admissions
+                                                                                                                    </button>
+                                                                                                    </div>
+                                                                                                    <div id="hamburger4" class="collapse"
+                                                        aria-labelledby="hamburgerHeading4"
+                                                        data-parent="#mobileMegaMenu">
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading36">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/admissions">
+                                                                                    B.Tech Programs
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading37">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/techleaders/admissions">
+                                                                                    Technology Leaders Program
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading40">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/hs/young-technology-scholars">
+                                                                                    Young Technology Scholars
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading53">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/phd">
+                                                                                    Ph.D Program
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading54">
+                                                                                                                                                                                                                                        <button
+                                                                                    class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                                                    type="button"
+                                                                                    data-toggle="collapse"
+                                                                                    data-target="#subhamburger54"
+                                                                                    aria-expanded="true"
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls="collapseOne">
+                                                                                    Scholarships
+                                                                                </button>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div id="subhamburger54"
+                                                                                class="collapse"
+                                                                                aria-labelledby="subhamburgerHeading54">
+                                                                                <div class="card-body py-0">
+                                                                                    <ul
+                                                                                        class="link-list p-5 m-0 list-unstyled">
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/bharti-scholarship"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >Bharti Scholarship</a>
+                                                                                            </li>
+                                                                                                                                                                            </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading75">
+                                                                                                                                                                                                                                        <button
+                                                                                    class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                                                    type="button"
+                                                                                    data-toggle="collapse"
+                                                                                    data-target="#subhamburger75"
+                                                                                    aria-expanded="true"
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls="collapseOne">
+                                                                                    Awards
+                                                                                </button>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div id="subhamburger75"
+                                                                                class="collapse"
+                                                                                aria-labelledby="subhamburgerHeading75">
+                                                                                <div class="card-body py-0">
+                                                                                    <ul
+                                                                                        class="link-list p-5 m-0 list-unstyled">
+                                                                                                                                                                                    <li><a href="https://plaksha.edu.in/spdutt-award"
+                                                                                                                                                                                                        target="_blank"
+                                                                                                    >SP Dutt Award</a>
+                                                                                            </li>
+                                                                                                                                                                            </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading5">
+                                                                                                            <button
+                                                            class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#hamburger5"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            Faculty
+                                                                                                                    </button>
+                                                                                                    </div>
+                                                                                                    <div id="hamburger5" class="collapse"
+                                                        aria-labelledby="hamburgerHeading5"
+                                                        data-parent="#mobileMegaMenu">
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading26">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/faculty/full-time-academia">
+                                                                                    Full Time &amp; Adjunct Faculty
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading63">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/faculty/visiting-faculty-academia">
+                                                                                    Visiting Faculty
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading71">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/faculty-open-positions">
+                                                                                    Join as Faculty
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading6">
+                                                                                                            <a href="https://plaksha.edu.in/research"
+                                                            class=" btn-block text-left border-0 p-0 my-5"
+                                                            style="
+                                                        font-size: 5.33333rem;
+
+                                                        font-weight: 600;
+
+                                                        font-stretch: normal;
+
+                                                        font-style: normal;
+                                                        color:#000000">
+                                                            Research
+                                                            </a>
+                                                                                                    </div>
+                                                                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading17">
+                                                                                                            <a href="https://plaksha.edu.in/#student-life"
+                                                            class=" btn-block text-left border-0 p-0 my-5"
+                                                            style="
+                                                        font-size: 5.33333rem;
+
+                                                        font-weight: 600;
+
+                                                        font-stretch: normal;
+
+                                                        font-style: normal;
+                                                        color:#000000">
+                                                            Student Life
+                                                            </a>
+                                                                                                    </div>
+                                                                                                                                                                                            
+                                                <div class="card-header bg-transparent border-0"
+                                                    id="hamburgerHeading29">
+                                                                                                            <button
+                                                            class="btn btn-link btn-block text-left border-0 p-0 my-5 collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#hamburger29"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            Career Development
+                                                                                                                    </button>
+                                                                                                    </div>
+                                                                                                    <div id="hamburger29" class="collapse"
+                                                        aria-labelledby="hamburgerHeading29"
+                                                        data-parent="#mobileMegaMenu">
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading72">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/placements">
+                                                                                    Placements
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                                    <div class="card-body py-0">
+                                                                <ul id="list-count"
+                                                                    class="link-list p-0 m-0 list-unstyled">
+                                                                    <li class="link-item my-5  active ">
+
+                                                                        <!--sub code here-->
+                                                                        <div class="card-header bg-transparent border-0"
+                                                                            id="subhamburgerHeading73">
+                                                                                                                                                                                                                                        <a class="text-left border-0 p-0 my-5 "
+                                                                                    style="font-size: 4rem"
+                                                                                    aria-controls=""
+                                                                                    href="https://plaksha.edu.in/pesp">
+                                                                                    Plaksha Entrepreneurship Support Program
+                                                                                </a>
+                                                                                                                                                    </div>
+                                                                                                                                                <!-- sub code ends here-->
+
+                                                                </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                <div>
+
+                                </div>
+
+                                                                <div class="col-md-4 overview-container" style="display:none">
+                                    <div class="overview-wrapper">
+                                        <h3 class="overview-title">Programs</h3>
+                                                                                <ul class="link-list p-0 list-unstyled">
+                                            <li class="link-item active">
+                                                <a  href="https://plaksha.edu.in/hs/young-technology-scholars"
+                                                    >Young Tech Scholars</a>
+                                            </li>
+                                                                                    </ul>
+                                                                                <ul class="link-list p-0 list-unstyled">
+                                            <li class="link-item active">
+                                                <a  href="https://plaksha.edu.in/UG"
+                                                    >Undergraduate degrees</a>
+                                            </li>
+                                                                                                                                    <li class="link-item">
+                                                <a href="https://plaksha.edu.in/ug/btech-degree/computer-science-and-artificial-intelligence"                                                     target="_blank">
+                                                    B.Tech in Computer Science & Artificial Intelligence</a>
+                                            </li>
+                                                                                        <li class="link-item">
+                                                <a href="https://plaksha.edu.in/course-details/ug/robotics-cyber-physical-systems"                                                     target="_blank">
+                                                    B.Tech in Robotics & Cyber-Physical Systems</a>
+                                            </li>
+                                                                                        <li class="link-item">
+                                                <a href="https://plaksha.edu.in/course-details/ug/biological-systems-engineering"                                                     target="_blank">
+                                                    B.Tech in Biological Systems Engineering</a>
+                                            </li>
+                                                                                        <li class="link-item">
+                                                <a href="https://plaksha.edu.in/course-details/ug/data-science-business-economics"                                                     target="_blank">
+                                                    B.Tech in Data Science, Economics and Business</a>
+                                            </li>
+                                                                                                                                </ul>
+                                                                                <ul class="link-list p-0 list-unstyled">
+                                            <li class="link-item active">
+                                                <a  href="https://plaksha.edu.in/techleaders/"
+                                                    >Technology Leaders Program</a>
+                                            </li>
+                                                                                    </ul>
+                                                                                <ul class="link-list p-0 list-unstyled">
+                                            <li class="link-item active">
+                                                <a  href="https://plaksha.edu.in/phd"
+                                                    >Ph.D Program</a>
+                                            </li>
+                                                                                    </ul>
+                                                                            </div>
+                                </div>
+                                                            </div>
+
+                        </div>
+                        <div class="footer-part">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .link-title.m-0>a,
+    .btn.btn-link.btn-block.text-left.border-0.p-0.my-5>a {
+        color: #212529 !important;
+    }
+</style>
+        <style>
+  .header-new {
+    position: relative;
+    background: #fff;
+  }
+
+  .header-bottom {
+    background: #00555a;
+  }
+
+  .logo-white {
+    display: none;
+  }
+
+  .logo-area .logo-green {
+    display: inherit;
+  }
+
+  .middle-navbar ul li a {
+    color: #000;
+  }
+
+  .apply-btn {
+    background: #00555a;
+    color: #fff;
+  }
+
+  .apply-btn::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    background-image: url('public/images/chevron-down1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 14px;
+    height: 8px;
+  }
+
+  .apply-btn:hover {
+    color: #fff;
+  }
+
+  .header-top {
+    padding: 0px 80px;
+  }
+
+  .banner-sliderdaw .slick-slide img {
+    height: inherit;
+  }
+
+  .banner-desdaw {
+    margin-top: 50px;
+  }
+
+  .c-sli-daw .progressBarContainer {
+    position: absolute !important;
+    bottom: 140px !important;
+    width: 70% !important;
+    left: 15% !important;
+  }
+
+  .new-title
+  {
+    font-weight: 600 !important;
+    font-size: 37px !important;
+  }
+
+  .small-title
+  {
+    font-weight: 300 !important;
+    font-size: 37px !important;
+  }
+
+.trigger_popup{
+padding: 0.33333rem 0.66667rem !important;
+transform-origin: 75% 50% !important;
+
+}
+
+.mobile-fix-text
+{
+transform-origin: 65% 50% !important;
+}
+
+
+.dsw-four-box .four-box-holder {
+/*  */
+/* height: 100%; */
+height:450px !important;
+}
+  @media  only screen and (max-width:1199px) {
+    .header-new {
+      position: absolute;
+      background: inherit;
+    }
+
+    .logo-area .logo-green {
+      display: none;
+    }
+
+    .logo-white {
+      display: inherit;
+    }
+
+    .apply-btn {
+      background: #fff;
+      color: #424242;
+    }
+
+    .apply-btn::after {
+      background-image: url(https://plaksha.edu.in/images/chevron-down.png);
+      transform: translateY(-50%) rotate(0deg);
+    }
+
+    .banner-sliderdaw .slick-slide img {
+      height: 450px;
+    }
+  }
+
+  @media  only screen and (max-width:767px) {
+
+ .mobile-fix-text
+    {
+        transform-origin: 66% 50% !important;
+margin-top: -25px !important;
+    padding: 7px !important;
+    line-height: 11px;    }
+
+    .mobile-fix-text-2
+    {
+         padding: 7px !important;
+    transform-origin: 77% 50% !important;
+    line-height: 12px;
+
+    top: 64% !important;
+    }
+
+
+    .banner-sliderdaw .slick-slide img {
+      height: 630px;
+    }
+
+    .image-fit
+    {
+      width: 100%;
+      height: 100%;
+    }
+
+    .header-top {
+      padding: 5px 40px;
+    }
+.dsw-four-box .four-box-holder {
+
+height: 100% !important;
+/* height:450px !important; */
+}
+  }
+
+  @media  only screen and (max-width:480px) {
+    .header-top {
+      padding: 0px 8px;
+    }
+  }
+
+  @media  only screen and (max-width:390px) {
+    .banner-sliderdaw .slick-slide img {
+      height:  630px;
+    }
+  }
+  @media  only screen and (max-width:375px) {
+    .banner-sliderdaw .slick-slide img {
+      height:  665px;
+    }
+  }
+
+  @media  only screen and (max-width:339px) {
+    .banner-sliderdaw .slick-slide img {
+      height:  630px;
+    }
+  }
+
+</style>
+
+<section class="banner-desdaw">
+  <!--modds code start -->
+  <a href="https://btech-admissions.plaksha.edu.in/lp/virtualchat.html?utm_source=VirtualChat&amp;utm_medium=UG&amp;utm_campaign=Admissions" target="_blank"> <button class="trigger_popup mobile-fix-text-2" style="top: 74%;">Virtual Chat</button></a>
+  <button class="trigger_popup mobile-fix-text" id="myBtn" style="transform-origin: 78% 50% !important; margin-top: -63px; display: block;">ENQUIRE/ VISIT</button>
+  <!-- The Modal -->
+  <div id="myModal" class="modal" data-backdrop="static" data-keyboard="false">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="head_text">Register Your Interest</div>
+      <span class="close">&times;</span>
+      <div class="npf_wgts" data-height="500px" data-w="6ca1ab2eac3a752335a5854db7490f2d"></div>
+    </div>
+  </div>
+  <!-- modal code ends -->
+  <div class="sliderwrapdawperdaw">
+    <div class="sliderwrapdaw">
+      <div class="banner-sliderdaw">
+        <div class="c-sli-daw">
+          <div class="sliderContainer">
+
+            <div class="slider single-item">
+                                          <div><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167394308341673943083.png" class="image-fit" alt="" title=""></div>
+                                                        <div><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167394313521673943135.png" class="image-fit" alt="" title=""></div>
+                                                        <div><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1673943330website%20banner1673943330.png" class="image-fit" alt="" title=""></div>
+                                                        <div><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671105921tlp%20convocation1671105921.png" class="image-fit" alt="" title=""></div>
+                                                        <div><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671106046art%20fair1671106046.png" class="image-fit" alt="" title=""></div>
+                                          <!-- <div><img src="https://plaksha.edu.in/assets/images/Homepage/Academic-Program.png" alt="" title=""></div>
+              <div><img src="https://plaksha.edu.in/assets/images/Homepage/Faculty.png" alt="" title=""></div>
+              <div><img src="https://plaksha.edu.in/assets/images/Homepage/Campus-Tour.png" alt="" title=""></div>
+              <div><img src="https://plaksha.edu.in/assets/images/Homepage/Admissions.png" alt="" title=""></div>
+              <div><img src="https://plaksha.edu.in/assets/images/Homepage/Scholarships.png" alt="" title=""></div> -->
+            </div>
+            <div class="progressBarContainer">
+              
+                                          <div>
+                <h3> 1<b class="nume">/5</b></h3>
+                <span data-slick-index="0" class="progressBar"></span>
+                <h3 class="descr">Investiture Ceremony</h3>
+                              </div>
+                                                        <div>
+                <h3> 2<b class="nume">/5</b></h3>
+                <span data-slick-index="1" class="progressBar"></span>
+                <h3 class="descr">Founders Day</h3>
+                              </div>
+                                                        <div>
+                <h3> 3<b class="nume">/5</b></h3>
+                <span data-slick-index="2" class="progressBar"></span>
+                <h3 class="descr">Havells Block</h3>
+                              </div>
+                                                        <div>
+                <h3> 4<b class="nume">/5</b></h3>
+                <span data-slick-index="3" class="progressBar"></span>
+                <h3 class="descr">TLP Convocation</h3>
+                              </div>
+                                                        <div>
+                <h3> 5<b class="nume">/5</b></h3>
+                <span data-slick-index="4" class="progressBar"></span>
+                <h3 class="descr">Art Fair</h3>
+                              </div>
+                                          <!-- <div>
+                <h3> 1<b class="nume">/5</b></h3>
+                <span data-slick-index="0" class="progressBar"></span>
+                <h3 class="descr">Academic Programs</h3>
+              </div>
+              <div>
+                <h3>2<b class="nume">/5</b></h3>
+                <span data-slick-index="1" class="progressBar"></span>
+                <h3 class="descr">Faculty</h3>
+              </div>
+              <div>
+                <h3> 3<b class="nume">/5</b></h3>
+                <span data-slick-index="2" class="progressBar"></span>
+                <h3 class="descr">Virtual Campus Tour</h3>
+              </div>
+
+              <div>
+                <h3> 4<b class="nume">/5</b></h3>
+                <span data-slick-index="3" class="progressBar"></span>
+                <h3 class="descr">Admissions</h3>
+              </div>
+              <div>
+                <h3> 5<b class="nume">/5</b></h3>
+                <span data-slick-index="4" class="progressBar"></span>
+                <h3 class="descr">Scholarships</h3>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dsw-four-box">
+  <div class="four-box-wrap">
+    <div class="four-box-holder">
+      <ul>
+        <li class="ct-1"></li>
+        <li class="ct-2"></li>
+        <li class="ct-3"></li>
+        <li class="ct-4"></li>
+      </ul>
+    </div>
+    <div class="four-box-holder-content">
+            <div class="content-dsw ct-1 skewed"> <img src="https://plaksha.edu.in/images/home/icon-11670243319.png" alt="" title="" class="icon">
+        <h2>ACADEMIC PROGRAMS</h2>
+        <p>Plaksha offers interdisciplinary and cutting-edge technology programs from Undergraduate to Ph.D level.</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/#academic_offering_0"> OUR PROGRAMS</a></div>
+      </div>
+            <div class="content-dsw ct-1 skewed"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1670931598icon-21670931598.png" alt="" title="" class="icon">
+        <h2>ADMISSIONS</h2>
+        <p>Applying for a program? Learn more about prerequisites and application timelines.</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/admissions"> LEARN MORE</a></div>
+      </div>
+            <div class="content-dsw ct-1 skewed"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1670931458faculty-icon1670931458.png" alt="" title="" class="icon">
+        <h2>FACULTY</h2>
+        <p>Plaksha&#039;s community of faculty comprises of brilliant individuals who are trained at some of the world&#039;s best universities.</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/faculty"> OUR FACULTY</a></div>
+      </div>
+            <div class="content-dsw ct-1 skewed"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1670931607icon-31670931607.png" alt="" title="" class="icon">
+        <h2>ABOUT US</h2>
+        <p>Plaksha&#039;s journey started in 2015, as a conversation among a few friends about how and why technology education needs to change.</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/about-us"> OUR STORY</a></div>
+      </div>
+            <!-- <div class="content-dsw ct-1 skewed"> <img src="https://plaksha.edu.in/assets/images/icon-1.png" alt="" title="" class="icon">
+        <h2>Academic Programs</h2>
+        <p>Plaksha offers interdisciplinary and cutting-edge technology programs from Undergraduate to Ph.D level.</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/UG">View Programs</a></div>
+      </div>
+      <div class="content-dsw ct-2 skewed"> <img src="https://plaksha.edu.in/assets/images/faculty-icon.png" alt="" title="" class="icon">
+        <h2>Faculty</h2>
+        <p>Plaksha's community of faculty comprises of brilliant individuals who are trained at some of the world's best universities.</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/faculty">View Faculty</a></div>
+      </div>
+      <div class="content-dsw ct-3 skewed"> <img src="https://plaksha.edu.in/assets/images/icon-3.png" alt="" title="" class="icon">
+        <h2>Virtual Campus Tour</h2>
+        <p>Take a tour of the tech-enabled Plaksha Campus at Mohali, Chandigarh</p>
+        <div class="btn-dsw"><a href="#">Register Now</a></div>
+      </div>
+      <div class="content-dsw ct-4 skewed"> <img src="https://plaksha.edu.in/assets/images/icon-2.png" alt="" title="" class="icon">
+        <h2>Admissions</h2>
+        <p>Applying for a program? Learn more about admissions and application timelines</p>
+        <div class="btn-dsw"><a href="https://plaksha.edu.in/admissions ">View Admissions</a></div>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<section class="dsw-upcoming-eventdaw">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="com-titledaw new-title">Upcoming Events</h2>
+        <div class="events-dsw">
+          <ul>
+
+                                    <li> <img src="https://plaksha.edu.in/images/home/11670562580.png" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>Founders Day</h4>
+                <p>Plaksha University will celebrate its first in-person Founders Day and conduct an Investiture Ceremony to commemorate Dr. Shankar Sastry’s appointment as our Founding Chancellor.</p>
+                <div class="event-btnsdaw">
+                                  <a href="#">Coming Soon</a>
+              </div>
+                      </div>
+        </li>
+                                        <li> <img src="https://plaksha.edu.in/images/home/21670562588.png" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>ConfAi 2023</h4>
+                <p>Plaksha&#039;s 3-day multi-track ‘Conference on Artificial Intelligence’ is coming back from 22-24 March 2023.</p>
+                <div class="event-btnsdaw">
+                                  <a href="#">Coming Soon</a>
+              </div>
+                      </div>
+        </li>
+                                        <li> <img src="https://plaksha.edu.in/images/home/31670562596.png" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>PhD Mini-symposium</h4>
+                <p>Designed to foster exchange of experiences &amp; knowledge among doctoral students, Mini-symposium will allow them to listen to distinguished speakers&#039; multidisciplinary lectures, communicate their research and receive feedback.</p>
+                <div class="event-btnsdaw">
+                                  <a href="#">Coming Soon</a>
+              </div>
+                      </div>
+        </li>
+                        <!-- <li> <img src="https://plaksha.edu.in/assets/images/virtual-chats.jpg" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>Virtual Chats</h4>
+                <p>Meet our admissions team every Wednesday for one-on-one guidance and getting every question answered.</p>
+                <div class="event-btnsdaw"> <a href="https://plaksha.edu.in/whats-happening-at-plaksha">Register Now</a></div>
+              </div>
+            </li>
+            <li> <img src="https://plaksha.edu.in/assets/images/web-30.jpg" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>Web 3.0</h4>
+                <p>Plaksha's Web 3.0 Summit is a one-day global event, where more than 25+ Entrepreneurs, Innovators and Venture Capitalists come together to discuss the next wave of opportunities in Web 3.0.</p>
+                <div class="event-btnsdaw"> <a href="https://plaksha.edu.in/whats-happening-at-plaksha">Register Now</a></div>
+              </div>
+            </li>
+            <li> <img src="https://plaksha.edu.in/assets/images/confai.jpg" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>ConfAi</h4>
+                <p>Plaksha's Web 3.0 Summit is a one-day global event, where more than 25+ Entrepreneurs, Innovators and Venture Capitalists come together to discuss the next wave of opportunities in Web 3.0.</p>
+                <div class="event-btnsdaw"> <a href="https://plaksha.edu.in/whats-happening-at-plaksha">Register Now</a></div>
+              </div>
+            </li>
+            <li> <img src="https://plaksha.edu.in/assets/images/tech-talks.jpg" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>Tech Talks</h4>
+                <p>Plaksha's Tech Talks is a one-day global event, where more than 25+ Entrepreneurs, Innovators and Venture Capitalists come together to discuss the next wave of opportunities in tech Talks.</p>
+                <div class="event-btnsdaw"> <a href="https://plaksha.edu.in/whats-happening-at-plaksha">Register Now</a></div>
+              </div>
+            </li>
+            <li> <img src="https://plaksha.edu.in/assets/images/design-thinking-webinar.jpg" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>Design Thinking Webinar</h4>
+                <p>The Design Thinking webinar is a one-day global event, where more than 25+ Entrepreneurs, Innovators and Venture Capitalists come together to discuss the next wave of opportunities in this webinar.</p>
+                <div class="event-btnsdaw"> <a href="https://plaksha.edu.in/whats-happening-at-plaksha">Register Now</a></div>
+              </div>
+            </li>
+            <li> <img src="https://plaksha.edu.in/assets/images/campus-tour.jpg" alt="" title="">
+              <div class="ev-contentdaw">
+                <h4>Campus Tour</h4>
+                <p>Join us on campus for a tour. Meet our admissions team for in-person tour and getting every question answered.</p>
+                <div class="event-btnsdaw"> <a href="https://plaksha.edu.in/whats-happening-at-plaksha">Register Now</a></div>
+              </div>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<section class="tab-sec" id="student-life">
+    <div class="container">
+      <h2 class="com-titledaw">Student Life</h2>
+      <div class="row">
+        <div class="col-md-12 col-lg-12 tab-new">
+
+          <!-- Tabs nav -->
+                              <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'makerspace')" id="defaultOpen"><span class="ico"> <img src="https://designawebsite.co.in/demo/plaksha-new-home-page/assets/images/play-icon.png" alt="" title="" class="mr-2 black"></span> makerspace</button>
+          </div>
+                                        <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'library')" id="defaultOpen"><span class="ico"> <img src="https://designawebsite.co.in/demo/plaksha-new-home-page/assets/images/play-icon.png" alt="" title="" class="mr-2 black"></span> library</button>
+          </div>
+                                        <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'hostel')" id="defaultOpen"><span class="ico"> <img src="https://designawebsite.co.in/demo/plaksha-new-home-page/assets/images/play-icon.png" alt="" title="" class="mr-2 black"></span> hostel</button>
+          </div>
+                                        <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'classroom')" id="defaultOpen"><span class="ico"> <img src="https://designawebsite.co.in/demo/plaksha-new-home-page/assets/images/play-icon.png" alt="" title="" class="mr-2 black"></span> classroom</button>
+          </div>
+                            </div>
+        <div class="col-md-12 col-lg-12">
+          <!-- Tabs content -->
+          <!-- Makerspace  upper slider start  -->
+                              <div id="makerspace" class="tabcontent" style="display: block;">
+            <!-- Carousel -->
+
+            <div id="carousel-makerspace" class="carousel slide gallery" data-ride="carousel">
+              <div class="carousel-inner">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="carousel-item active" data-slide-number="0" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012924untitled%20design1671012924.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012924untitled%20design1671012924.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="1" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/images/home/41669881213.png"> <img src="https://plaksha.edu.in/images/home/41669881213.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="2" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/16710148171%20%281%2916703119281671014817.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/16710148171%20%281%2916703119281671014817.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="3" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671016735untitled%20design%20%281%291671016735.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671016735untitled%20design%20%281%291671016735.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-makerspace" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-makerspace" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+            <!-- Makerspace  upper slider ends  -->
+            <!-- Carousel Navigatiom -->
+            <!-- Makerspace  lower slider start  -->
+            <div id="carousel-thumbs-one" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="carousel-item active" data-slide-number="0">
+                  <div class="row">
+                                        
+                      <div id="carousel-selector-0" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-makerspace" data-slide-to="0"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012924untitled%20design1671012924.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-1" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-makerspace" data-slide-to="1"> <img src="https://plaksha.edu.in/images/home/41669881213.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-2" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-makerspace" data-slide-to="2"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/16710148171%20%281%2916703119281671014817.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-3" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-makerspace" data-slide-to="3"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671016735untitled%20design%20%281%291671016735.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                              </div>
+                </div>
+                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-thumbs-one" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-thumbs-one" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+          </div>
+          
+                    <div id="library" class="tabcontent" style="display: block;">
+            <!-- Carousel -->
+
+            <div id="carousel-library" class="carousel slide gallery" data-ride="carousel">
+              <div class="carousel-inner">
+                                                                                                                                                                                                                                                                                                                                                                                                                <div class="carousel-item active" data-slide-number="0" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671016940untitled%20design%20%282%291671016940.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671016940untitled%20design%20%282%291671016940.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="1" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/assets/images/Homepage/Library/2.png"> <img src="https://plaksha.edu.in/assets/images/Homepage/Library/2.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="2" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/images/home/3 (1)1669881284.png"> <img src="https://plaksha.edu.in/images/home/3 (1)1669881284.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="3" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/images/home/4 (1)1669881333.png"> <img src="https://plaksha.edu.in/images/home/4 (1)1669881333.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="4" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167464767421674647674.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167464767421674647674.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                                                                                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-library" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-library" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+            <!-- Makerspace  upper slider ends  -->
+            <!-- Carousel Navigatiom -->
+            <!-- Makerspace  lower slider start  -->
+            <div id="carousel-thumbs-one" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                
+                                                                                                                                                                                                                                                                                                                                                                                                                <div class="carousel-item active" data-slide-number="0">
+                  <div class="row">
+                                        
+                      <div id="carousel-selector-0" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-library" data-slide-to="0"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671016940untitled%20design%20%282%291671016940.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-1" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-library" data-slide-to="1"> <img src="https://plaksha.edu.in/assets/images/Homepage/Library/2.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-2" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-library" data-slide-to="2"> <img src="https://plaksha.edu.in/images/home/3 (1)1669881284.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-3" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-library" data-slide-to="3"> <img src="https://plaksha.edu.in/images/home/4 (1)1669881333.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                              </div>
+                </div>
+                                                                                                                <div class="carousel-item " data-slide-number="1">
+                  <div class="row">
+                                        
+                      <div id="carousel-selector-4" class="thumb col-3 px-1 py-2" data-target="#carousel-library" data-slide-to="4"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167464767421674647674.png" alt="" title="" class="img-fluid"> </div>
+                                                                                                    </div>
+                </div>
+                                                                                                                                                                                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-thumbs-one" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-thumbs-one" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+          </div>
+          
+                    <div id="hostel" class="tabcontent" style="display: block;">
+            <!-- Carousel -->
+
+            <div id="carousel-hostel" class="carousel slide gallery" data-ride="carousel">
+              <div class="carousel-inner">
+                                                                                <div class="carousel-item active" data-slide-number="0" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/assets/images/Homepage/Hostel/1.png"> <img src="https://plaksha.edu.in/assets/images/Homepage/Hostel/1.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="1" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/assets/images/Homepage/Hostel/3.png"> <img src="https://plaksha.edu.in/assets/images/Homepage/Hostel/3.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="2" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/images/home/41669881435.png"> <img src="https://plaksha.edu.in/images/home/41669881435.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="3" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/images/home/21669881463.png"> <img src="https://plaksha.edu.in/images/home/21669881463.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-hostel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-hostel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+            <!-- Makerspace  upper slider ends  -->
+            <!-- Carousel Navigatiom -->
+            <!-- Makerspace  lower slider start  -->
+            <div id="carousel-thumbs-one" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                
+                                                                                <div class="carousel-item active" data-slide-number="0">
+                  <div class="row">
+                                        
+                      <div id="carousel-selector-0" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-hostel" data-slide-to="0"> <img src="https://plaksha.edu.in/assets/images/Homepage/Hostel/1.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-1" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-hostel" data-slide-to="1"> <img src="https://plaksha.edu.in/assets/images/Homepage/Hostel/3.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-2" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-hostel" data-slide-to="2"> <img src="https://plaksha.edu.in/images/home/41669881435.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-3" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-hostel" data-slide-to="3"> <img src="https://plaksha.edu.in/images/home/21669881463.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                              </div>
+                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-thumbs-one" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-thumbs-one" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+          </div>
+          
+                    <div id="classroom" class="tabcontent" style="display: block;">
+            <!-- Carousel -->
+
+            <div id="carousel-classroom" class="carousel slide gallery" data-ride="carousel">
+              <div class="carousel-inner">
+                                                                                                                                                                                                                                                <div class="carousel-item active" data-slide-number="0" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101760561671017605.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101760561671017605.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="1" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha.edu.in/assets/images/Homepage/Classroom/2.png"> <img src="https://plaksha.edu.in/assets/images/Homepage/Classroom/2.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="2" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101762451671017624.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101762451671017624.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                <div class="carousel-item " data-slide-number="3" data-toggle="lightbox" data-gallery="gallery" data-remote="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101763541671017635.png"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101763541671017635.png" alt="" title="" class="d-block w-100"> </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-classroom" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-classroom" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+            <!-- Makerspace  upper slider ends  -->
+            <!-- Carousel Navigatiom -->
+            <!-- Makerspace  lower slider start  -->
+            <div id="carousel-thumbs-one" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                
+                                                                                                                                                                                                                                                <div class="carousel-item active" data-slide-number="0">
+                  <div class="row">
+                                        
+                      <div id="carousel-selector-0" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-classroom" data-slide-to="0"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101760561671017605.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-1" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-classroom" data-slide-to="1"> <img src="https://plaksha.edu.in/assets/images/Homepage/Classroom/2.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-2" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-classroom" data-slide-to="2"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101762451671017624.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                                                                                                                
+                      <div id="carousel-selector-3" class="thumb col-3 px-1 py-2 selected" data-target="#carousel-classroom" data-slide-to="3"> <img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/167101763541671017635.png" alt="" title="" class="img-fluid"> </div>
+
+                                                                              </div>
+                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+              <a class="carousel-control-prev" href="#carousel-thumbs-one" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-thumbs-one" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+          </div>
+          
+          
+          <!-- Makerspace  lower slider ends -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<section class="slider-new-section news-sec-dsw">
+  <div class="container">
+    <h2 class="com-titledaw bm_0 small-title">Plaksha in the news</h2>
+    <!--First slide-->
+    <div class="news-plaskha row">
+                  <div class="col-md-12">
+
+        <div class="card mb-2">
+                    <a href="https://www.news18.com/news/education-career/plaksha-university-placements-see-highest-salary-at-rs-41-lpa-most-offers-in-data-science-product-management-roles-6197989.html" target="_blank"><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012172news-11671012172.jpg" alt="" title="" class="card-img-top"></a>
+                    <div class="card-body slider-new slider-new1">
+                        <a href="https://www.news18.com/news/education-career/plaksha-university-placements-see-highest-salary-at-rs-41-lpa-most-offers-in-data-science-product-management-roles-6197989.html" target="_blank">
+              <h4>Plaksha University Placements see highest salary</h4>
+            </a>
+                        <div class="date-se"> News 18 | October 21, 2022 </div>
+                        <a href="https://www.news18.com/news/education-career/plaksha-university-placements-see-highest-salary-at-rs-41-lpa-most-offers-in-data-science-product-management-roles-6197989.html" target="_blank">Read More</a>
+            
+          </div>
+        </div>
+      </div>
+                        <div class="col-md-12">
+
+        <div class="card mb-2">
+                    <a href="https://timesofindia.indiatimes.com/city/visakhapatnam/vizag-girls-startup-eases-its-way-into-neurocare/articleshow/88439601.cms?from=mdr" target="_blank"><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012215resize1671012215.png" alt="" title="" class="card-img-top"></a>
+                    <div class="card-body slider-new slider-new1">
+                        <a href="https://timesofindia.indiatimes.com/city/visakhapatnam/vizag-girls-startup-eases-its-way-into-neurocare/articleshow/88439601.cms?from=mdr" target="_blank">
+              <h4>Vizag girl’s startup eases its way into neurocare</h4>
+            </a>
+                        <div class="date-se"> The Times of India| December 23, 2021 </div>
+                        <a href="https://timesofindia.indiatimes.com/city/visakhapatnam/vizag-girls-startup-eases-its-way-into-neurocare/articleshow/88439601.cms?from=mdr" target="_blank">Read More</a>
+            
+          </div>
+        </div>
+      </div>
+                        <div class="col-md-12">
+
+        <div class="card mb-2">
+                    <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank"><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012258plaksha-students-win-yale-hackathon1671012258.jpg" alt="" title="" class="card-img-top"></a>
+                    <div class="card-body slider-new slider-new1">
+                        <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank">
+              <h4>Plaksha students win Yale Hackathon</h4>
+            </a>
+                        <div class="date-se"> Indian education diary | November 15, 2022 </div>
+                        <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank">Read More</a>
+            
+          </div>
+        </div>
+      </div>
+                        <div class="col-md-12">
+
+        <div class="card mb-2">
+                    <a href="https://indiaeducationdiary.in/plaksha-university-students-win-hacknyu-conducted-by-new-york-university-with-hackers-from-all-over-the-world/" target="_blank"><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012279microsoftteams-image1671012279.png" alt="" title="" class="card-img-top"></a>
+                    <div class="card-body slider-new slider-new1">
+                        <a href="https://indiaeducationdiary.in/plaksha-university-students-win-hacknyu-conducted-by-new-york-university-with-hackers-from-all-over-the-world/" target="_blank">
+              <h4>Plaksha students win NYU Hackathon</h4>
+            </a>
+                        <div class="date-se"> India education diary | November 15, 2022 </div>
+                        <a href="https://indiaeducationdiary.in/plaksha-university-students-win-hacknyu-conducted-by-new-york-university-with-hackers-from-all-over-the-world/" target="_blank">Read More</a>
+            
+          </div>
+        </div>
+      </div>
+                        <div class="col-md-12">
+
+        <div class="card mb-2">
+                    <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank"><img src="https://plaksha-university-bucket.s3.ap-southeast-1.amazonaws.com/public/assets/1671012298news-21671012298.jpg" alt="" title="" class="card-img-top"></a>
+                    <div class="card-body slider-new slider-new1">
+                        <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank">
+              <h4>Plaksha University partners with IISC</h4>
+            </a>
+                        <div class="date-se"> Financial Express | May 12, 2022 </div>
+                        <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank">Read More</a>
+            
+          </div>
+        </div>
+      </div>
+            
+
+
+
+
+      <!-- <div class="col-md-12">
+        <div class="card mb-2"> <a href="https://timesofindia.indiatimes.com/city/visakhapatnam/vizag-girls-startup-eases-its-way-into-neurocare/articleshow/88439601.cms?from=mdr" target="_blank"><img src="https://plaksha.edu.in/assets/images/Homepage/academic.png" alt="" title="" class="card-img-top"></a>
+          <div class="card-body slider-new slider-new1">
+            <a href="https://timesofindia.indiatimes.com/city/visakhapatnam/vizag-girls-startup-eases-its-way-into-neurocare/articleshow/88439601.cms?from=mdr" target="_blank" rel="noopener noreferrer">
+              <h4>Vizag girl’s startup ‘eases’ its way into neurocare</h4>
+            </a>
+            <div class="date-se"> `<span>The Times of India</span> | <span>December 23, 2021</span> `</div>
+            <a href="https://timesofindia.indiatimes.com/city/visakhapatnam/vizag-girls-startup-eases-its-way-into-neurocare/articleshow/88439601.cms?from=mdr" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 ">
+        <div class="card mb-2"> <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank"><img src="https://plaksha.edu.in/assets/images/plaksha-students-win-yale-hackathon.jpg" alt="" title="" class="card-img-top"></a>
+          <div class="card-body slider-new slider-new1">
+            <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank">
+              <h4>Plaksha students win Yale Hackathon</h4>
+            </a>
+            <div class="date-se"> <span>Indian education diary</span> | <span>November 15, 2022</span> </div>
+            <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/">Read More</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-md-12">
+              <div class="card mb-2">
+                <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank"><img src="https://plaksha.edu.in/assets/images/news-1.jpg" alt="" title="" class="card-img-top"></a>
+                <div class="card-body slider-new slider-new1">
+                <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank"><h4>Plaksha University partners with IISC</h4></a>
+                  <div class="date-se"> <span>Financial Express</span> | <span>May 12, 2022</span> </div>
+                  <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div> -->
+      <!-- <div class="col-md-12 ">
+              <div class="card mb-2"> <img src="https://plaksha.edu.in/assets/images/news-2.jpg" alt="" title="" class="card-img-top"></a>
+                <div class="card-body slider-new slider-new1">
+                <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank"><h4>Plaksha students win Yale Hackathon</h4></a>
+                  <div class="date-se"> <span>The Hindu</span> | <span>May 17, 2022</span> </div>
+                   <a href="https://indiaeducationdiary.in/plaksha-university-students-win-big-in-fintech-track-at-yale-hack-2022/" target="_blank">Read More</a>
+                </div>
+              </div>
+            </div> -->
+      <!--
+      <div class="col-md-12">
+        <div class="card mb-2"> <a href="https://indiaeducationdiary.in/plaksha-university-students-win-hacknyu-conducted-by-new-york-university-with-hackers-from-all-over-the-world/" target="_blank"><img src="https://plaksha.edu.in/assets/images/news-2.jpg" alt="" title="" class="card-img-top">
+            <div class="card-body slider-new slider-new1">
+              <a href="https://indiaeducationdiary.in/plaksha-university-students-win-hacknyu-conducted-by-new-york-university-with-hackers-from-all-over-the-world/" target="_blank">
+                <h4>Plaksha students win NYU Hackathon</h4>
+              </a>
+              <div class="date-se"> <span>India education diary</span> | <span>November 15, 2022</span> </div>
+              <a href="https://indiaeducationdiary.in/plaksha-university-students-win-hacknyu-conducted-by-new-york-university-with-hackers-from-all-over-the-world/" target="_blank">Read More</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="card mb-2"> <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank"><img src="https://plaksha.edu.in/assets/images/news-2.jpg" alt="" title="" class="card-img-top"></a>
+          <div class="card-body slider-new slider-new1">
+            <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank">
+              <h4>Plaksha University partners with IISC</h4>
+            </a>
+            <div class="date-se"> <span>Financial Express</span> | <span>May 12, 2022</span> </div>
+            <a href="https://www.financialexpress.com/education-2/plaksha-university-partners-with-iisc-fostering-joint-research-and-student-mobility-programs/2521740/" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="card mb-2"> <a href="https://www.news18.com/news/education-career/plaksha-university-signs-mou-with-university-of-california-san-diego-for-joint-research-data-science-programs-5510701.html" target="_blank" rel="noopener noreferrer"><img src="https://plaksha.edu.in/assets/images/Homepage/sign.jpg" alt="" title="" class="card-img-top"></a>
+          <div class="card-body slider-new slider-new1">
+            <a href="https://www.news18.com/news/education-career/plaksha-university-signs-mou-with-university-of-california-san-diego-for-joint-research-data-science-programs-5510701.html" target="_blank" rel="noopener noreferrer">
+              <h4>Plaksha University partners with University of California, San Diego</h4>
+            </a>
+            <div class="date-se"> <span>The news18</span> | <span>July 07, 2022</span> </div>
+            <a href="https://www.news18.com/news/education-career/plaksha-university-signs-mou-with-university-of-california-san-diego-for-joint-research-data-science-programs-5510701.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+  <!--/.Carousel Wrapper-->
+
+  </div>
+</section>
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://plaksha.edu.in/assets/css/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://plaksha.edu.in/assets/css/slick-theme.css" />
+<script type="text/javascript" src="https://plaksha.edu.in/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://plaksha.edu.in/assets/js/popper.min.js"></script>
+<script type="text/javascript" src="https://plaksha.edu.in/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://plaksha.edu.in/assets/js/slick.js"></script>
+<script>
+  $("[id^=carousel-thumbs]").carousel({
+
+    interval: false
+
+  });
+
+
+
+  /** Pause/Play Button **/
+
+  $(".carousel-pause").click(function() {
+
+    var id = $(this).attr("href");
+
+    if ($(this).hasClass("pause")) {
+
+      $(this).removeClass("pause").toggleClass("play");
+
+      $(this).children(".sr-only").text("Play");
+
+      $(id).carousel("pause");
+
+    } else {
+
+      $(this).removeClass("play").toggleClass("pause");
+
+      $(this).children(".sr-only").text("Pause");
+
+      $(id).carousel("cycle");
+
+    }
+
+    $(id).carousel;
+
+  });
+
+
+
+  /** Fullscreen Buttun **/
+
+  $(".carousel-fullscreen").click(function() {
+
+    var id = $(this).attr("href");
+
+    $(id).find(".active").ekkoLightbox({
+
+      type: "image"
+
+    });
+
+  });
+
+
+
+  if ($("[id^=carousel-thumbs] .carousel-item").length < 2) {
+
+    $("#carousel-thumbs [class^=carousel-control-]").remove();
+
+    $("#carousel-thumbs").css("padding", "0 5px");
+
+  }
+
+
+
+  $("#carousel").on("slide.bs.carousel", function(e) {
+
+    var id = parseInt($(e.relatedTarget).attr("data-slide-number"));
+
+    var thumbNum = parseInt(
+
+      $("[id=carousel-selector-" + id + "]")
+
+      .parent()
+
+      .parent()
+
+      .attr("data-slide-number")
+
+    );
+
+    $("[id^=carousel-selector-]").removeClass("selected");
+
+    $("[id=carousel-selector-" + id + "]").addClass("selected");
+
+    $("#carousel-thumbs").carousel(thumbNum);
+
+  });
+</script>
+<script>
+  function openCity(evt, cityName) {
+
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+
+    for (i = 0; i < tabcontent.length; i++) {
+
+      tabcontent[i].style.display = "none";
+
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+
+    for (i = 0; i < tablinks.length; i++) {
+
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+    }
+
+    document.getElementById(cityName).style.display = "block";
+
+    evt.currentTarget.className += " active";
+
+  }
+
+
+
+  // Get the element with id="defaultOpen" and click on it
+
+  document.getElementById("defaultOpen").click();
+</script>
+<script>
+  ///***** START SLICK WITH PROGRESSBAR****///
+
+  $(document).ready(function() {
+
+    // Slick Slide Counters
+
+    var $mainslider = $('.heroslider')
+
+    $mainslider.on('init', function(event, slick) {
+
+      $(this).append('<div class="slick-counter"><span class="current"></span> / <span class="total"></span></div>');
+
+      $('.current').text(slick.currentSlide + 1);
+
+      $('.total').text(slick.slideCount);
+
+    })
+
+    $mainslider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+
+      $('.current').text(nextSlide + 1);
+
+    });
+
+
+
+    // Slick Slider Options
+
+    $mainslider.slick({
+
+      draggable: true,
+
+      arrows: true,
+
+      dots: false,
+
+      fade: true,
+
+      infinite: true,
+
+      speed: 800,
+
+      mobileFirst: true,
+
+      pauseOnDotsHover: false,
+
+    });
+
+
+
+    // Slider Progressbar Start Here
+
+    var time = 1;
+
+    var $bar,
+
+      $mainslider,
+
+      isPause,
+
+      tick,
+
+      percentTime;
+
+
+
+    $bar = $('.slider-progress .progress');
+
+
+
+    function startProgressbar() {
+
+      resetProgressbar();
+
+      percentTime = 0;
+
+      isPause = false;
+
+      tick = setInterval(interval, 20);
+
+    }
+
+
+
+    function interval() {
+
+      if (isPause === false) {
+
+        percentTime += 1 / (time + 0.1);
+
+        $bar.css({
+
+          width: percentTime + "%"
+
+        });
+
+        if (percentTime >= 100) {
+
+          $mainslider.slick('slickNext');
+
+          startProgressbar();
+
+        }
+
+      }
+
+    }
+
+    function resetProgressbar() {
+
+      $bar.css({
+
+        width: 0 + '%'
+
+      });
+
+      clearTimeout(tick);
+
+    }
+
+    // Reset Progressbar When Slide Change
+
+    $mainslider.on('afterChange', function(event, slick, currentSlide) {
+
+      startProgressbar();
+
+    });
+
+    $('.sliderwrapdaw').on({
+
+      mouseenter: function() {
+
+        isPause = true;
+
+      },
+
+      mouseleave: function() {
+
+        isPause = false;
+
+      }
+
+    })
+
+    startProgressbar();
+
+  });
+</script>
+
+
+<script>
+  $(document).ready(function() {
+
+
+    $(".slider").slick({
+      infinite: true,
+      arrows: true,
+      dots: false,
+      autoplay: false,
+      speed: 800,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    });
+
+    //ticking machine
+    var percentTime;
+    var tick;
+    var time = 1;
+    var progressBarIndex = 0;
+
+    $('.progressBarContainer .progressBar').each(function(index) {
+      var progress = "<div class='inProgress inProgress" + index + "'></div>";
+      $(this).html(progress);
+    });
+
+    function startProgressbar() {
+      resetProgressbar();
+      percentTime = 0;
+      tick = setInterval(interval, 10);
+    }
+
+    function interval() {
+      if (($('.slider .slick-track div[data-slick-index="' + progressBarIndex + '"]').attr("aria-hidden")) === "true") {
+        progressBarIndex = $('.slider .slick-track div[aria-hidden="false"]').data("slickIndex");
+        startProgressbar();
+      } else {
+        percentTime += 1 / (time + 5);
+        $('.inProgress').parent().parent().removeClass("yellow-text");
+        $('.inProgress' + progressBarIndex).parent().parent().addClass("yellow-text");
+        $('.inProgress' + progressBarIndex).css({
+          width: percentTime + "%"
+        });
+        if (percentTime >= 100) {
+          $('.single-item').slick('slickNext');
+          progressBarIndex++;
+          if (progressBarIndex > 4) {
+            progressBarIndex = 0;
+          }
+          startProgressbar();
+        }
+      }
+    }
+
+    function resetProgressbar() {
+      $('.inProgress').css({
+        width: 0 + '%'
+      });
+      clearInterval(tick);
+    }
+    startProgressbar();
+    // End ticking machine
+
+    $('.progressBarContainer div').click(function() {
+      clearInterval(tick);
+      var goToThisIndex = $(this).find("span").data("slickIndex");
+      $('.single-item').slick('slickGoTo', goToThisIndex, false);
+      startProgressbar();
+    });
+
+
+  });
+</script>
+
+
+
+<script>
+  $(document).ready(function() {
+
+
+    $(".slider-aca").slick({
+      infinite: true,
+      arrows: true,
+      dots: false,
+      autoplay: false,
+      speed: 800,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+
+
+
+
+
+    });
+
+    //ticking machine
+    var percentTime;
+    var tick;
+    var time = 1;
+    var progressBarzIndex = 0;
+
+    $('.progressBarContainer .progressBarz').each(function(index) {
+      var progress = "<div class='inProgressz inProgressz" + index + "'></div>";
+      $(this).html(progress);
+    });
+
+    function startProgressbar() {
+      resetProgressbar();
+      percentTime = 0;
+      tick = setInterval(interval, 10);
+    }
+
+    function interval() {
+      if (($('.slider-aca .slick-track div[data-slick-index="' + progressBarzIndex + '"]').attr("aria-hidden")) === "true") {
+        progressBarzIndex = $('.slider-aca .slick-track div[aria-hidden="false"]').data("slickIndex");
+        startProgressbar();
+      } else {
+        percentTime += 1 / (time + 5);
+        $('.inProgressz').parent().parent().removeClass("yellow-textz");
+        $('.inProgressz' + progressBarzIndex).parent().parent().addClass("yellow-textz");
+        $('.inProgressz' + progressBarzIndex).css({
+          width: percentTime + "%"
+        });
+        if (percentTime >= 100) {
+          $('.single-item').slick('slickNext');
+          progressBarzIndex++;
+          if (progressBarzIndex > 24) {
+            progressBarzIndex = 0;
+          }
+          startProgressbar();
+        }
+      }
+    }
+
+    function resetProgressbar() {
+      $('.inProgressz').css({
+        width: 0 + '%'
+      });
+      clearInterval(tick);
+    }
+    startProgressbar();
+    // End ticking machine
+
+    $('.progressBarzContainer div').click(function() {
+      clearInterval(tick);
+      var goToThisIndex = $(this).find("span").data("slickIndex");
+      $('.single-item').slick('slickGoTo', goToThisIndex, false);
+      startProgressbar();
+    });
+
+
+  });
+</script>
+
+
+
+
+<script>
+  $(document).ready(function() {
+
+    $(".news-plaskha").slick({
+      dots: false,
+      arrows: true,
+      infinite: true,
+      speed: 500,
+      cssEase: 'linear',
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      draggable: true,
+
+      adaptiveHeight: true,
+      responsive: [{
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            dots: false,
+            arrows: true
+          }
+        },
+
+        {
+          breakpoint: 993,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: false,
+            arrows: true
+          }
+        },
+
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: false,
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            centerMode: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+
+    });
+  });
+</script>
+
+
+
+<script type="text/javascript">
+  var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.async = true;
+  s.src = "https://widgets.in5.nopaperforms.com/emwgts.js";
+  document.body.appendChild(s);
+</script>
+
+<!-- Ticker tape CSS ends -->
+
+<!-- WIDGET CODE -->
+
+<!-- Trigger/Open The Modal -->
+
+        <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#00555a', triggerColor : '#e5e5e5', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 0, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script>
+<div id="footer">
+    <footer>
+        <div class="footer-container">
+            <div class="card-component">
+                <p class="card-title">Our Faculty</p>
+                <div class="card-content d-md-flex d-lg-block d-xl-flex justify-content-between align-items-center mt-4">
+                    <p class="card-desc m-0">
+                        Faculty come from institutions such as MIT, Stanford, Cornell, University of Cambridge, NTU Singapore, IIT, IISc among others.                    </p>
+                    <div class="card-button-wrapper">
+                        <a href="https://plaksha.edu.in/faculty" target="_blank">
+                        <button class="cta-button card-button d-flex align-items-center">
+                        KNOW MORE                        </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content d-md-flex justify-content-between">
+                <div id="accordion">
+
+                                            <div class="card bg-transparent border-0">
+                            <div class="card-header border-0 bg-transparent pl-0">
+                                                                    <a href="https://plaksha.edu.in/UG" >
+                                        <button
+                                            class="btn btn-link text-white border-0 text-md-left p-0"
+                                            data-toggle="collapse"
+                                            data-target="#collapseFour"
+                                            aria-expanded="true"
+                                            aria-controls="collapseFour"
+                                            >
+                                            B.Tech. Program
+                                        </button>
+                                    </a>
+                                                            </div>
+                            
+                        </div>
+
+                                            <div class="card bg-transparent border-0">
+                            <div class="card-header border-0 bg-transparent pl-0">
+                                                                    <a href="https://plaksha.edu.in/techleaders/" >
+                                        <button
+                                            class="btn btn-link text-white border-0 text-md-left p-0"
+                                            data-toggle="collapse"
+                                            data-target="#collapseFour"
+                                            aria-expanded="true"
+                                            aria-controls="collapseFour"
+                                            >
+                                            Technology Leaders Program
+                                        </button>
+                                    </a>
+                                                            </div>
+                            
+                        </div>
+
+                                            <div class="card bg-transparent border-0">
+                            <div class="card-header border-0 bg-transparent pl-0">
+                                                                    <button
+                                        class="btn btn-link text-white border-0 p-0 text-md-left"
+                                        data-toggle="collapse"
+                                        data-target="#collapse_2"
+                                        aria-expanded="true"
+                                        aria-controls="collapse_2"
+                                        >
+                                    Admissions
+                                    </button>
+                                                            </div>
+                                                        <div
+                                id="collapse_2"
+                                class="collapse "
+                                aria-labelledby="headingOne"
+                                data-parent="#accordion"
+                                >
+                                <div class="card-body p-0">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item bg-transparent pl-0 border-0">
+                                            <a href="https://plaksha.edu.in/admissions">B.Tech Program</a>
+                                        </li>
+                                        <li class="list-group-item bg-transparent pl-0 border-0">
+                                            <a href="https://plaksha.edu.in/techleaders/admissions">Technology Leaders Program</a>
+                                        </li>
+                                        <li class="list-group-item bg-transparent pl-0 border-0">
+                                            <a href="https://plaksha.edu.in/bharti-scholarship">Scholarship</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                                            <div class="card bg-transparent border-0">
+                            <div class="card-header border-0 bg-transparent pl-0">
+                                                                    <a href="https://giving.plaksha.edu.in" >
+                                        <button
+                                            class="btn btn-link text-white border-0 text-md-left p-0"
+                                            data-toggle="collapse"
+                                            data-target="#collapseFour"
+                                            aria-expanded="true"
+                                            aria-controls="collapseFour"
+                                            >
+                                            Giving
+                                        </button>
+                                    </a>
+                                                            </div>
+                            
+                        </div>
+
+                    
+                    <!-- <div class="card bg-transparent border-0">
+                        <div class="card-header border-0 bg-transparent pl-0">
+                            <button
+                                class="btn btn-link text-white border-0 p-0"
+                                data-toggle="collapse"
+                                data-target="#collapseTwo"
+                                aria-expanded="true"
+                                aria-controls="collapseTwo"
+                                >
+                            Programs
+                            </button>
+                        </div>
+                        <div
+                            id="collapseTwo"
+                            class="collapse"
+                            aria-labelledby="collapseTwo"
+                            data-parent="#accordion"
+                            >
+                            <div class="card-body p-0">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent pl-0 border-0">
+                                        <a href="https://plaksha.edu.in/UG" target="_blank">UG Programs</a>
+                                    </li>
+                                    <li class="list-group-item bg-transparent pl-0 border-0">
+                                        <a href="http://15.206.1.232/plaksha-backend-dev/techleaders_dev/" target="_blank">Tech Leaders Fellowship</a>
+                                    </li>
+                                    <li class="list-group-item bg-transparent pl-0 border-0">
+                                        <a href="https://youngtechscholars.org/" target="_blank">Young Technology Scholars</a>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent border-0">
+                        <div class="card-header border-0 bg-transparent pl-0">
+                             <a href="https://plaksha.org/faculty" target="_blank">
+                                <button
+                                    class="btn btn-link text-white border-0 p-0"
+                                    data-toggle="collapse"
+                                    data-target="#collapseFour"
+                                    aria-expanded="true"
+                                    aria-controls="collapseFour"
+                                    >
+                                Faculty
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="card bg-transparent border-0">
+                        <div class="card-header border-0 bg-transparent pl-0">
+                             <a href="https://plaksha.edu.in/reach-us" >
+                                <button
+                                    class="btn btn-link text-white border-0 p-0"
+                                    data-toggle="collapse"
+                                    data-target="#collapseFour"
+                                    aria-expanded="true"
+                                    aria-controls="collapseFour"
+                                    >
+                                Reach Us
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>                    -->
+                </div>
+                                        <!-- mid footer-->
+
+                                        <div id="accordion">
+
+
+<div class="card bg-transparent border-0">
+<div class="card-header border-0 bg-transparent pl-0" id="headingOne">
+        <a href="https://plaksha.edu.in/whats-happening-at-plaksha">
+<button class="btn btn-link text-white border-0 p-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+Events
+</button>
+</a>
+</div>
+
+</div>
+
+<div class="card bg-transparent border-0">
+<div class="card-header border-0 bg-transparent pl-0" id="headingOne">
+        <a href="https://plaksha.org/faqs">
+<button class="btn btn-link text-white border-0 p-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+FAQs
+</button>
+</a>
+</div>
+
+</div>
+
+<div class="card bg-transparent border-0">
+<div class="card-header border-0 bg-transparent pl-0" id="headingOne">
+        <a href="https://plaksha.edu.in/statements">
+<button class="btn btn-link text-white border-0 p-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+Statements
+</button>
+</a>
+</div>
+</div>
+
+
+<div class="card bg-transparent border-0">
+<div class="card-header border-0 bg-transparent pl-0" id="headingOne">
+        <a target="_blank" href="https://www.ugc.ac.in/privateuniversitylist.aspx?id=umDAdAUHKTlEnfnZtQUjcA==&Unitype=So1CNBLvrigKjpQTxHMrAQ==">
+<button class="btn btn-link text-white border-0 p-0 text-md-left" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+UGC Notification
+</button>
+</a>
+</div>
+</div>
+
+
+</div>
+
+
+<!-- mid footer ends-->
+                <div class="connect-card">
+                <h3 class="title text-white">Connect with Us</h3>
+                <span class="d-block text-white">info@plaksha.edu.in</span>
+                <span class="d-block text-white">+91 172 412 6260 / +91 172 497 6900</span>
+                <span class="d-block text-white">Alpha, Sector 101, IT City Rd,
+Sahibzada Ajit Singh Nagar, 
+Punjab 
+140306</span>
+                    <ul class="social-links-list d-flex justify-content-between">
+                        <li class="social-link-item d-inline-block">
+                           <a target="blank" href="https://www.youtube.com/channel/UCFOUZd3606pcxJD0Hl9pAcQ">
+                               <img src="https://plaksha.edu.in/images/icons8-youtube-48.svg" alt="Youtube" class="youtube">
+                           </a>
+                       </li>
+                        <li class="social-link-item d-inline-block">
+                           <a target="blank" href="https://www.facebook.com/plakshauniversity/">
+                               <img src="https://plaksha.edu.in/images/social-facebook.svg" alt="Facebook" class="facebook">
+                           </a>
+                       </li>
+                        <li class="social-link-item d-inline-block">
+                           <a target="blank" href="https://www.instagram.com/plakshauniversity/">
+                               <img src="https://plaksha.edu.in/images/social-instagram.svg" alt="instagram" class="linkedin">
+                           </a>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright-text mb-0">
+            Plaksha University is established under the Punjab government's 'Punjab Private Universities Policy 2010'. <a href="https://plaksha.edu.in/assets/P-U-Act-Signed.pdf" style="
+    color: #546972;
+    text-decoration: underline;
+" target="_blank">Read More</a>
+            </p>
+            <p class="copyright-text mb-0">
+                @Copyright  reserved | <a target="_blank" style="color: #c9c9c9;text-decoration: none;" href="https://drive.google.com/file/d/1YHjpxT-A6H5pq1W6Fz1w3-eliTmrg_PH/view?usp=sharing" >Terms and condition</a> | <a target="_blank" style="color: #c9c9c9;text-decoration: none;" href="https://drive.google.com/file/d/19m4XIaANLFWevOC2QLEq3WwBqSKcj7aW/view?usp=sharing" >Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+
+<!--  -->
+</div>
+        <script>
+          var modal = document.getElementById("myModal");
+          var btn = document.getElementById("myBtn");
+          var span = document.getElementsByClassName("close")[0];
+          btn.onclick = function () {
+            modal.style.display = "block";
+            btn.style.display= "none";
+          };
+          span.onclick = function () {
+            modal.style.display = "none";
+              btn.style.display= "block";
+          };
+          var modal1 = document.getElementById("myModal1");
+          var btn1 = document.getElementById("myBtn1");
+          var span1 = document.getElementsByClassName("close1")[0];
+          btn1.onclick = function () {
+            modal1.style.display = "block";
+          };
+          span1.onclick = function () {
+            modal1.style.display = "none";
+              btn1.style.display= "block";
+          };
+        </script>
+            <script src="https://plaksha.edu.in/scripts/popper.min.js"></script>
+    <script src="https://plaksha.edu.in/scripts/bootstrap.min.js"></script>
+    <script src="https://plaksha.edu.in/scripts/owl.carousel.min.js"></script>
+    <script src="https://plaksha.edu.in/scripts/script.js?r=10"></script>
+    <script src="https://plaksha.edu.in/scripts/homepage.js"></script>
+    <script src="https://plaksha.edu.in/scripts/placements.js"></script>
+    <script src="https://plaksha.edu.in/scripts/admission.js"></script>
+    <script src="https://plaksha.edu.in/scripts/team-details.js"></script>
+    <script src="https://plaksha.edu.in/scripts/about-us.js"></script>
+    <script src="https://plaksha.edu.in/scripts/partners.js"></script>
+    <script src="https://plaksha.edu.in/scripts/research.js"></script>
+    <script src="https://plaksha.edu.in/scripts/programs.js"></script>
+    <script src="https://plaksha.edu.in/scripts/course-details.js"></script>
+	<script>
+	$(document).ready(function(){
+        $(function() {
+    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+    if (isMobile) {
+        //Conditional script here
+    }
+else{
+    //$('#myBtn').click();
+    // c code start
+    $(document).ready(function() {
+    console.log( "ready!" );
+    if(localStorage.getItem('cookieSeen') != 'shown'){
+        $("#landingModalLauncher").click();
+    localStorage.setItem('cookieSeen','shown')
+}
+});
+    // c code ends
+}
+ });
+ $('#apply-btn').click(function(){
+            $('.right-apply-btn').toggleClass('active');
+        })
+        $('.menu-btn').click(function(){
+            $('.trigger-btn-dropdown').toggleClass('open');
+            $('.menu-btn').toggleClass('times');
+        })
+	});
+	</script>
+    </body>
+</html>
